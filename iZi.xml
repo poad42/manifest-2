@@ -12,8 +12,8 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
-  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="izi" />
-  <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="izi" />
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="iZi" />
+  <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="iZi" />
   <project path="art" name="art" remote="iZi" />
   <project path="bionic" name="bionic" remote="iZi" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="iZi" />
@@ -31,14 +31,14 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="iZi" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="iZi" />
   <project path="hardware/ril" name="hardware_ril" remote="iZi" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="izi" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="iZi" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="iZi" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="iZi" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="iZi" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="iZi" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="iZi" />
-  <project path="packages/apps/SnapdragonGallery" name="packages_apps_SnapdragonGallery" remote="izi" />
-  <project path="packages/apps/SnapdragonMusic" name="packages_apps_SnapdragonMusic" remote="izi" />
+  <project path="packages/apps/SnapdragonGallery" name="packages_apps_SnapdragonGallery" remote="iZi" />
+  <project path="packages/apps/SnapdragonMusic" name="packages_apps_SnapdragonMusic" remote="iZi" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="iZi" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="iZi" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="iZi" />
@@ -62,4 +62,3 @@
   <project path="vendor/qcom/opensource/bluetooth" name="vendor_qcom_opensource_bluetooth" remote="iZi" />
   <project path="vendor/qcom/sdclang-3.8/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="nougat-mr1"/>
 </manifest>
-
