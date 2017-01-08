@@ -1,0 +1,28 @@
+<img src="https://raw.githubusercontent.com/iZiRoms/manifest/nougat/iZi.png">
+=============
+
+iZi
+===========
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the iZi trees, use a command like this:
+
+    repo init -u https://github.com/iZiroms/manifest.git -b nougat
+
+Then to sync up:
+
+    repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+
+Building the source
+---------------
+
+````bash
+. build/envsetup.sh
+lunch iZi_$device-userdebug
+mka bacon
+```

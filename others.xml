@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="cm-14.1" />
+  <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="github" revision="nougat-mr1" />
+  <project path="hardware/broadcom/libbt" name="AOSPA/android_hardware_broadcom_libbt" remote="github" revision="nougat.mr1" />
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="iZi" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="darwin,arm" remote="github" revision="nougat-mr1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_darwin-x86_arm-linux-android-4.9" groups="darwin,arm" remote="github" revision="nougat-mr1" />
+</manifest>
