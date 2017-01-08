@@ -5,9 +5,6 @@
            revision="refs/tags/android-7.1.1_r1"
            fetch="https://android.googlesource.com"/>
 
-  <remote  name="github"
-           fetch="https://github.com"/>
-
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
